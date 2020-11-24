@@ -1,0 +1,98 @@
+body {
+  background: chocolate;
+  width: 60%;
+  padding: 20px 80px 20px 80px;
+  margin: 0 auto;
+  border: 5px solid transparent;
+  box-shadow: -webkit-box-shadow: 0px 3px 7px 14px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 7px 14px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 7px 14px rgba(0,0,0,0.75);
+}
+
+img {
+  width: 310px;
+  padding-bottom: 10px;
+  box-shadow: -webkit-box-shadow: 12px -1px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 12px -1px 6px 0px rgba(0,0,0,0.75);
+box-shadow: 12px -1px 6px 0px rgba(0,0,0,0.75);
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  font-size: 21px;
+  text-align: justify;
+}
+
+p::first-letter {
+  font-weight: bold;
+}
+
+.column p {
+  transform: scale(.8, 1);
+  font-size: 25px;
+}
+
+.float {
+  display: block;
+}
+
+.image1 {
+float: left;
+margin-right: 30px;
+}
+
+.space {
+  display: block;
+  clear: both;
+  border-bottom: 1px solid black;
+}
+
+.space1{
+  display: block;
+    clear: both;
+  border-bottom: 3px solid black;
+}
+
+.space2 {
+  display: block;
+    clear: both;
+  border-bottom: 2px solid black;
+}
+
+.image2 {
+  float: right;
+  margin-left: 30px;
+}
+
+.text2 p {
+  font-size: 35px;
+}
+
+.textcol {
+    float: left;
+    width: 50%;
+    display: block;
+}
+
+p:last-child {
+  margin-left: 30px;
+}
+
+.column {
+  height: auto;
+}
+
+.column:after {
+  clear: both;
+}
+
+.last p {
+  letter-spacing: 5px;
+}
